@@ -1,0 +1,22 @@
+{
+  "name": "starterpack-peipeisoeung",
+  "version": "1.0.0",
+  "description": "*description*",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartmouth-cs52-25w/starterpack-peipeisoeung.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartmouth-cs52-25w/starterpack-peipeisoeung/issues"
+  },
+  "homepage": "https://github.com/dartmouth-cs52-25w/starterpack-peipeisoeung#readme",
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}
