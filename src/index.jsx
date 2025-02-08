@@ -4,6 +4,8 @@ import './style.scss';
 import {
   BrowserRouter, Routes, Route, NavLink, useParams,
 } from 'react-router';
+import Counter from './components/counter';
+import Control from './components/controls';
 
 const Test = (props) => {
   const { id } = useParams();
@@ -11,7 +13,12 @@ const Test = (props) => {
 };
 
 const Welcome = (props) => {
-  return <div>Welcome</div>;
+  return (
+    <div>Welcome
+      <Counter />
+      <Control />
+    </div>
+  );
 };
 
 const About = (props) => {
